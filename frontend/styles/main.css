@@ -1,0 +1,105 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar-brand {
+  max-height: 28px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #304659;
+}
+
+.navbar-light .navbar-nav:active {
+  font-weight: bold;
+  color: #304659 !important;
+}
+
+.btn-contact {
+  background-color: #f49f0a;
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.btn-contact:hover {
+  color: #fabb4d;
+}
+
+.section-hero {
+  top: 20px;
+}
+
+.section-hero h2 {
+  margin-top: 150px;
+  font-weight: bold;
+  font-size: 48px;
+}
+
+.section-hero h2 span {
+  color: #f49f0a;
+}
+
+.section-hero p {
+  font-size: 24px;
+}
+
+.section-hero .input-group {
+  width: 340px !important;
+}
+
+.section-hero .input-group .form-search {
+  background-color: #e9ecef;
+  color: #9fb2c2;
+  border-radius: 0px 5px 5px 0px;
+}
+
+.section-hero .input-group .btn-search {
+  border-radius: 5px;
+  background-color: #f49f0a;
+  color: white;
+}
+
+.section-hero .illustration {
+  position: absolute;
+  right: 0;
+  top: -50px;
+  width: 632px;
+  height: 632px;
+}
+
+.section-start {
+  margin-top: 150px;
+}
+
+.section-start .stats-detail {
+  padding-top: 18px;
+  background-color: #fef5e7;
+  padding-left: 40px;
+  color: #f49f0a;
+}
+
+.section-apartment {
+  margin-top: 90px;
+}
+
+.section-apartment .img-apartment {
+  width: 277px;
+  height: 290px;
+}
+
+.section-apartment .apartment-desc p {
+  font-weight: bold;
+}
+
+.section-apartment .btn-details {
+  background-color: #f49f0a;
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.section-apartment .btn-details:hover {
+  background-color: #fabb4d;
+}
+/*# sourceMappingURL=main.css.map */
