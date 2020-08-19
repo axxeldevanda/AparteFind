@@ -50,6 +50,7 @@ body {
 
   .input-group {
     width: 340px !important;
+
     // background-color: #f49f0a !important;
     .form-search {
       //   border-radius: 5px !important;
@@ -57,6 +58,7 @@ body {
       color: #9fb2c2;
       border-radius: 0px 5px 5px 0px;
     }
+
     .btn-search {
       border-radius: 5px;
       background-color: #f49f0a;
@@ -75,6 +77,7 @@ body {
 
 .section-start {
   margin-top: 150px;
+
   .stats-detail {
     padding-top: 18px;
     background-color: #fef5e7;
@@ -90,11 +93,13 @@ body {
     width: 277px;
     height: 290px;
   }
+
   .apartment-desc {
     p {
       font-weight: bold;
     }
   }
+
   .btn-details {
     background-color: #f49f0a;
     color: white;
@@ -103,6 +108,57 @@ body {
 
     &:hover {
       background-color: #fabb4d;
+    }
+  }
+}
+
+.testimonial-heading {
+  margin-top: 90px;
+
+  h3 {
+    font-weight: bold;
+    font-size: 32px;
+
+    span {
+      color: #f49f0a;
+    }
+  }
+
+  p {
+    color: #807F7F;
+  }
+
+
+}
+
+.section-testimonial-content {
+  margin-top: 24px;
+
+  .card-testimonial {
+
+    border-radius: 11px;
+    margin-bottom: 20px;
+    padding: 40px 20px 10px;
+
+    .testimonial-content {
+      min-height: 380px;
+
+      .testimonial {
+        color: #808080;
+        text-align: left;
+        padding: 12px 36px 0px 36px;
+      }
+
+      hr {
+        margin-left: -20px;
+        margin-right: -20px;
+        ;
+      }
+
+      .where-apartment {
+        font-weight: bold;
+        color: #B3B3B3;
+      }
     }
   }
 }
